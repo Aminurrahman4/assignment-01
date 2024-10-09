@@ -16,6 +16,7 @@ body{
    width: 1440px;
    height: 552px;
    background-image: url(../assets/Hero-bg.png);
+   margin-bottom: 75px;
 
 }
 .banner-title{
@@ -27,7 +28,7 @@ body{
    letter-spacing: 0%;
    text-align: center;
 }
-.banner-description{
+.banner-description, .development-description,.dev-description{
    color: rgb(13, 19, 33);
    font-family: Azeret Mono;
    font-size: 16px;
@@ -54,4 +55,64 @@ body{
    padding: 21px 24px 21px 24px;
    border-radius: 8px;
    margin-top: 32px;
+}
+
+/* second part */
+.development-section{
+   width: 946px;
+   height: 1233px;
+   margin: 0 auto;
+   background-color: rgba(13, 19, 33, 0.02);
+}
+.development-title{
+   color: rgb(13, 19, 33);
+   font-family: Azeret Mono;
+   font-size: 32px;
+   font-weight: 800;
+   line-height: 37px;
+   letter-spacing: 0%;
+   text-align: center;
+   margin-bottom: 24px;
+}
+
+.first-sub-section{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 60px;
+   margin-left: 25px;
+}
+.first-sub-title{
+   color: rgba(13, 19, 33, 0.7);
+   font-family: Azeret Mono;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 36px;
+   letter-spacing: 0%;
+   text-align: left;
+   margin-bottom: 16px;
+   
+}
+.image-section{
+   margin-left: 230px;
+}
+.title-section{
+   width: 60%;
+}
+.image-section{
+   width: 40%;
+}
+.image-section-2{
+   width: 40%;
+}
+.title-section-2{
+   width: 60%;
+}
+.dev-btn{
+   padding: 12px 20px 12px 20px;
+   margin-top: 16px;
+   font-size: 16px;
+}
+.dev-description{
+   text-align: left;
 }
