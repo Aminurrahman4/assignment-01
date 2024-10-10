@@ -31,6 +31,10 @@ body{
 
 /* Shared Css */ 
 
+.text-left{
+   text-align: left;
+}
+
 .common-title{
    color: rgb(13, 19, 33);
    font-family: Azeret Mono;
@@ -53,6 +57,16 @@ body{
    margin-bottom: 16px;
    
 }
+.title-description{
+   color: rgb(13, 19, 33);
+   font-family: Azeret Mono;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   letter-spacing: 0%;
+   opacity: 0.7;
+   text-align: center;
+}
 .common-description{
    color: rgb(13, 19, 33);
    font-family: Azeret Mono;
@@ -60,7 +74,6 @@ body{
    font-weight: 400;
    line-height: 26px;
    letter-spacing: 0%;
-   text-align: center;
    opacity: 0.7;
 
 }
@@ -84,6 +97,7 @@ body{
 
 /* second part */
 .development-section{
+   margin-top: 50px;
    width: 946px;
    height: 1233px;
    margin: 0 auto;
